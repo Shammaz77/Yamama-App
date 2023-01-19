@@ -27,6 +27,9 @@
 		background: #F0F0F0;
 		border-radius: 9px !important;
 	}
+	.inner-div-button .main-button-home{
+		width: 100% !important;
+	}
 	.home-main-banner .home-banner-img{
 		border-radius: 20px !important;
 		width: 100%;
@@ -37,6 +40,7 @@
 	}
 	.inner-div-sub-button .category-btn-home{
 		padding: 3px 15px !important;
+		width: 100% !important;
 	}
 	.inner-col-product{
 		background: #E0FFF5;
