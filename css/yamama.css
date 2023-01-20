@@ -181,7 +181,9 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-
+	.category-product a{
+		color: #000 !important;
+	}
 }
 @media (max-width:600px) {
   .container-main{
