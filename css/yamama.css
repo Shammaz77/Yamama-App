@@ -172,6 +172,7 @@
 	}
 	.product-lists .product-sublist img{
 		border-radius: 9px !important;
+		width: 100%;
 	}
 	.modal-sub-two{
 		padding-left: 10px !important;
@@ -184,6 +185,20 @@
 	.category-product a{
 		color: #000 !important;
 	}
+	.remove-btn{
+		border: 1px solid #7f441c !important;
+		padding: 0px 8px !important;
+		display: table !important;
+		margin-left: auto !important;
+		color: #000 !important;
+	}
+
+
+
+
+
+
+
 }
 @media (max-width:600px) {
   .container-main{
@@ -236,7 +251,11 @@
     border-radius: 11px !important;
 	}
 }
-
+@media (max-width:390px){
+	.remove-btn{
+		font-size: 10px !important;
+	}
+}
 
 
 
