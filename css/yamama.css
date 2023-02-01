@@ -348,10 +348,55 @@
 		margin-right: auto;
 		border-radius: 12px !important;
 	}
+	/* select lense type  */
+	.inner-col-lense-main-box{
+		background: #FFFFFF;
+		box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+		border-radius: 8px;
+		padding: 12px !important;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.inner-col-lense-main-box .product-img-details img{
+		width: 50px !important;
+		height: auto;
+	}  
+	.inner-col-lense-main-box .product-img-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+	}
+	.product-progress-sub .frame-description{
+		color: #8F8F8F;
+	}
+	.product-progress-details .progress-frame-rate{
+		color: #969696;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
-
-
-
 
 
 
