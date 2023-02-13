@@ -45,57 +45,57 @@
 			<!-- category buttons starts here  -->
 			<div class="col-md-4 col-4 mt-3">
 				<div class="inner-div-sub-button yamama-primary-bg">
-					<a href="#" class="btn text-white category-btn-home">MEN</a>
+					<a href="#" class="btn text-white category-btn-home"  onclick="openCity('Eyeglasses')">MEN</a>
 				</div>
 			</div>
 			<div class="col-md-4 col-4 mt-3">
 				<div class="inner-div-sub-button">
-					<a href="#" class="btn dark-text category-btn-home">WOMEN</a>
+					<a href="#" class="btn dark-text category-btn-home"  onclick="openCity('Sunglasses')">WOMEN</a>
 				</div>
 			</div>
 			<div class="col-md-4 col-4 mt-3">
 				<div class="inner-div-sub-button">
-					<a href="#" class="btn dark-text category-btn-home">KIDS</a>
+					<a href="#" class="btn dark-text category-btn-home"  onclick="openCity('Eyeglasses')">KIDS</a>
 				</div>
 			</div>
 			<!-- category buttons ends here  -->
 			<!-- product image strats here  -->
-			<div class="col-md-4 col-4 mt-3">
+			<div class="col-md-4 col-4 mt-3 w3-container city" id="Eyeglasses">
 				<div class="inner-col-product" data-toggle="modal" data-target="#modalPBottom">
 					<img class="product-image-home" src="./images/glass.png" alt="product-image">
 				</div>
-				<h3 class="home-product-name">Eyeglasses</h3>
+				<h3 class="home-product-name yamama-primary-color">Eyeglasses</h3>
 			</div>
-			<div class="col-md-4 col-4 mt-3">
+			<div class="col-md-4 col-4 mt-3 w3-container"  id="Sunglasses">
 				<div class="inner-col-product">
 					<img class="product-image-home" src="./images/Group 13731.png" alt="product-image">
 				</div>
-				<h3 class="home-product-name">Eyeglasses</h3>
+				<h3 class="home-product-name yamama-primary-color">Sunglasses</h3>
 			</div>
-			<div class="col-md-4 col-4 mt-3">
+			<div class="col-md-4 col-4 mt-3 w3-container" id="ComputerGlass">
 				<div class="inner-col-product">
 					<img class="product-image-home" src="./images/glass.png" alt="product-image">
 				</div>
-				<h3 class="home-product-name">Computer Glass</h3>
+				<h3 class="home-product-name yamama-primary-color">ComputerGlass</h3>
 			</div>
-			<div class="col-md-4 col-4 mt-2">
+			<!-- <div class="col-md-4 col-4 mt-2">
 				<div class="inner-col-product">
 					<img class="product-image-home" src="./images/Group 13731.png" alt="product-image">
 				</div>
-				<h3 class="home-product-name">Sun Glasses</h3>
+				<h3 class="home-product-name yamama-primary-color">Sun Glasses</h3>
 			</div>
 			<div class="col-md-4 col-4 mt-2">
 				<div class="inner-col-product">
 					<img class="product-image-home" src="./images/glass.png" alt="product-image">
 				</div>
-				<h3 class="home-product-name">Eyeglasses</h3>
+				<h3 class="home-product-name yamama-primary-color">Eyeglasses</h3>
 			</div>
 			<div class="col-md-4 col-4 mt-2">
 				<div class="inner-col-product">
 					<img class="product-image-home" src="./images/Group 13731.png" alt="product-image">
 				</div>
-				<h3 class="home-product-name">Nearby store</h3>
-			</div>
+				<h3 class="home-product-name yamama-primary-color">Nearby store</h3>
+			</div> -->
 			<!-- product image ends here  -->
 			<!-- home banner starts here  -->
 			<div class="col-md-12 col-12 mt-4">
@@ -106,7 +106,7 @@
 			<!-- home banner ends here  -->
 			<!-- trending products section starts here -->
 			<div class="col-md-12 col-12 mt-3">
-				<h2 class="text-left trending-heading">Trending</h2>
+				<h2 class="text-left trending-heading yamama-primary-color">Trending</h2>
 			</div>
 			<div class="col-md-6 col-6 mt-3">
 				<div class="category-product">
@@ -138,7 +138,7 @@
 			<!-- home banner ends here  -->
 			<!-- slider section starts  -->
 			<div class="col-md-12 col-12 mt-3">
-				<h2 class="text-left trending-heading">As Seen On</h2>
+				<h2 class="text-left trending-heading yamama-primary-color">As Seen On</h2>
 			</div>
 			<div class="swiper mySwiper mt-2">
 				<div class="swiper-wrapper">
@@ -162,7 +162,7 @@
 			<!-- home banner ends here  -->
 			<!-- video section  -->
 			<div class="col-md-12 col-12 mt-3">
-				<h2 class="text-left trending-heading">Know Your lens</h2>
+				<h2 class="text-left trending-heading yamama-primary-color">Know Your lens</h2>
 			</div>
 			<div class="col-md-6 col-6 mt-3 mb-2">
 				<div class="inner-col-vedios">
@@ -261,13 +261,18 @@
 
 
 
-
-
-
-
-
-
-
+	<!-- tab scripts  -->
+	<script>
+		function openCity(cityName) {
+			var i;
+			var x = document.getElementsByClassName("city");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			document.getElementById(cityName).style.display = "block";  
+		}
+		</script>
+	<!-- tab scripts ends -->
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 	<!-- Initialize Swiper -->
