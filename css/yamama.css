@@ -172,7 +172,7 @@
 	}
 	.product-lists .product-sublist img{
 		border-radius: 9px !important;
-		width: 100%;
+		width: 90%;
 	}
 	.modal-sub-two{
 		padding-left: 10px !important;
@@ -555,15 +555,61 @@
 	.login-success{
 		padding: 15px !important;
 	}
-
-
-
-
-
-
-
-
-
+	/* blog page style  */
+	.slider-brands-blog .card{
+		border: none !important;
+		max-width: 320px !important;
+		position: relative;
+	}
+	.slider-brands-blog .card .blog-sub-text{
+		background: #fff;
+		color: #000;
+		padding: 13px !important;
+		position: absolute;
+		bottom: 40px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 80%;
+		border-radius: 15px;
+	}
+	.blog-page .inner-col-blog{
+		padding: 10px;
+		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		background: #F7F7F7;
+		width: 100%;
+		margin-bottom: 15px;
+		position: relative;
+	}
+	.blog-page .inner-col-blog .inner-box-blog .blog-image{
+		width: 100px;
+		height: auto;
+	}
+	.blog-post-time{
+		color: gray;
+		position: absolute;
+		right: 10px;
+		bottom: 0px;
+		font-size: 12px ;
+	}
+	.slider-brands-blog .swiper-slide {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+	}
+	/* blog single page  */
+	.blog-single-page .inner-col-blog-single{
+		background: #FFFFFF;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 14px;
+	}
+	.blog-single-page .inner-col-blog-single .blog-single-image{
+		border-radius: 14px;
+	}
+	.blog-single-page .inner-col-blog-single .blog-single-contant{
+		padding: 12px;
+	}
 
 
 
@@ -642,7 +688,9 @@
 	.inner-div-sub-button .category-btn-home {
     padding: 2px 15px !important;
 	}
-
+	.inner-div-sub-button .category-btn-home {
+    padding: 1px 15px !important;
+	}
 }
 
 
