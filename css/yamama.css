@@ -210,10 +210,12 @@
 	.product-offer-btns .product-offer-btn{
 		border: 1px solid #D10000;
 		border-radius: 4px;
-		padding: 3px 11px;
+		/* padding: 3px 11px; */
 		color: #D10000 !important;
 		font-weight: 500;
 		margin-right: 5px !important;
+		height: 30px !important;
+		width: 140px !important;
 	}
 	.coupon-btn{
 		padding: 0px 9px !important;	
@@ -259,7 +261,8 @@
 		width: 100% !important;
 		border-radius: 10px !important;
 		padding: 6px 0px !important;
-		min-height: max-content !important;
+		height: 31px !important;
+		text-align: center;
 	}
 	/* dropdown style  */
 	.faq {
@@ -449,14 +452,13 @@
 	}
 	/* product single button frame  */
 	.product-single-section .p-single-frame-btn{
-		padding: 4px 15px;
+		/* padding: 4px 15px; */
+		height: 30px !important;
+		width: 90px !important;
 		border-radius: 14px;
 		border: 1px solid #B15F27;
-		min-width: max-content !important;
 	}
 	.product-single-section .inner-col-button-frames{
-
-
 	}
 	.inner-col-button-frames .cub-div{
 		margin: auto;
@@ -464,7 +466,7 @@
 		background: #ffff;
 		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 		margin: auto;
-		padding: 10px;
+		padding: 7px 6px;
 		border-radius: 30px;
 	}
 	.close-btn-p-single{
@@ -492,20 +494,67 @@
 		right: 20px;
 		color: #000;
 	}
+	/* place order page  */
+	.place-order .inner-col-add-new-addrss-btn .add-addrss-btn-place-order{
+		color: #727272;
+		border: 1px solid #BA7342;
+		border-radius: 12px;
+		display: table;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.inner-col-place-order-prduct-details-box{
+		background: #FFFFFF;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+		padding: 12px;
+		border-radius: 14px;
+		display: flex;
+		align-items: center;
+	}
+	.inner-col-place-order-prduct-details-box .sub-box-place-order{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
+	.inner-col-place-order-prduct-details-box .sub-box-place-order .place-order-product-image{
+		width: 130px !important;
+	} 
+	.place-order-discount-product{
+		color: #969696;
+		text-decoration: line-through;
+	}
+	.place-order-price-det{
+		display: flex;
+		align-items: center;
+	}
+	.inner-col-product-other-details .sub-box-other-details-price{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.grand-total-place-order{
+		font-weight: 500;
+		color: #000;
+	}
+	.place-order-decription{
+		color: #000;
+		font-weight: 500;
+	}
+	.succes-image{
+		width: 100px !important;
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.continue-btn-popup{
+		border: 1px solid #B15F27 !important;
+		padding: 4px 30px !important;
+		border-radius: 15px !important;
+		display: table !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.login-success{
+		padding: 15px !important;
+	}
 
 
 
@@ -582,11 +631,18 @@
 	.inner-div-sub-button {
     border-radius: 11px !important;
 	}
+	.product-single-section .p-single-frame-btn {
+    width: 100px !important;
+	}
 }
 @media (max-width:390px){
 	.remove-btn{
 		font-size: 10px !important;
 	}
+	.inner-div-sub-button .category-btn-home {
+    padding: 2px 15px !important;
+	}
+
 }
 
 

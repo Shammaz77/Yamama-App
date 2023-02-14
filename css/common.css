@@ -5,10 +5,13 @@
   font-family: 'Inter', sans-serif;
 }
 .yamama-primary-bg{
-    background-color: #7f441c;
+  background-color: #7f441c;
 }
 .yamama-primary-color{
-    color: #7f441c;
+  color: #7f441c;
+}
+.yamama-text-color-danger{
+  color: #D10000;
 }
 img {
 	width: 100%;
